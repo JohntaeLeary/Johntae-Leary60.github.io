@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Anime Paradise: Explore anime series, characters, events, and blogs">
+    <meta name="keywords" content="anime, characters, events, blogs, series">
+    <title>Anime Paradise - Home</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slicknav/1.0.10/slicknav.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Anime Paradise</div>
+        <nav id="main-menu">
+            <ul>
+                <li><a href="index.html" class="Current">Home</a></li>
+                <li><a href="popular.html">Popular Anime</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Your Gateway to the Anime Universe</h1>
+            <div class="slideshow">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/samplevideo" 
+                        title="Anime Trailers" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="intro">
+            <p>Welcome to Anime Paradise, the ultimate destination for anime fans! Explore your favorite anime series, characters, events, and more.</p>
+            <ul>
+                <li>Discover popular anime by genre and rating.</li>
+                <li>Meet iconic characters from your favorite shows.</li>
+                <li>Stay updated with anime events and blogs.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Anime Paradise. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slicknav/1.0.10/jquery.slicknav.min.js"></script>
+    <script>
+        $(function() {
+            $('#main-menu').slicknav();
+        });
+    </script>
+</body>
+</html>
