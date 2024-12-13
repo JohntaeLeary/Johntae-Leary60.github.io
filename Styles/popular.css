@@ -14,12 +14,14 @@ table th, table td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
+    font-family: 'Sawarabi Mincho', sans-serif;
     color: grey;
 }
 
 table th {
     background-color: #34495e;
     color: red;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 table tr:nth-child(even) {
