@@ -28,7 +28,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -69,7 +69,6 @@ h2 {
     color: #e74c3c;
 }
 
-
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -79,6 +78,4 @@ h2 {
         margin: 10px 0;
     }
 }
-background{
-    color:black;
-}
+
