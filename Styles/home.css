@@ -1,10 +1,9 @@
-/* Shared Styles */
 body {
     font-family: 'Sawarabi Mincho', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: black;
+    color: white;
 }
 
 header {
@@ -50,14 +49,16 @@ footer {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
+    background-color: #1c1c1c;
+    border-radius: 10px;
 }
 
 h1, h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #e74c3c;
 }
 
-/* Responsive Navigation */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -67,3 +68,4 @@ h1, h2 {
         margin: 10px 0;
     }
 }
+
