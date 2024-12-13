@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Johntae Leary">
     <meta name="description" content="Anime Paradise: Explore anime series, characters, events, and blogs">
-    <meta name="keywords" content="anime, characters, events, blogs, series">
+    <meta name="keywords" content="anime, home, introduction, welcome">
+    <meta name="date" content="2024-12-13" />
+    <meta name="tested" content="2024-12-13" />
     <title>Anime Paradise - Home</title>
     <link rel="stylesheet" href="Styles/home.css">
-    <link rel="stylesheet" href="Styles/print.css" media="print">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slicknav/1.0.10/slicknav.min.css">
-  <link rel="stylesheet" href="https://use.typekit.net/wyk7zcb.css">
-
+    <link rel="stylesheet" href="https://use.typekit.net/wyk7zcb.css">
 </head>
 <body>
     <header>
@@ -31,36 +30,33 @@
     <main>
         <section class="hero">
             <h1>Your Gateway to the Anime Universe</h1>
-           <div class="slideshow">
-    <video controls width="560" height="315">
-        <source src="video.mp4.mkv" type="video/mp4">
-        <h1>Check out the latest anime trailer!</h1>
-       
-    </video>
-</div>
-
         </section>
 
         <section class="intro">
             <p>Welcome to Anime Paradise, the ultimate destination for anime fans! Explore your favorite anime series, characters, events, and more.</p>
-            <ul>
-                <li>Discover popular anime by genre and rating.</li>
-                <li>Meet iconic characters from your favorite shows.</li>
-                <li>Stay updated with anime events and blogs.</li>
-            </ul>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Anime Paradise. All rights reserved.</p>
-    </footer>
+    <!-- Comment Section -->
+    <section class="comment-section">
+        <h3>Leave a Comment</h3>
+        <form action="thankyou.html" method="GET">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slicknav/1.0.10/jquery.slicknav.min.js"></script>
-    <script>
-        $(function() {
-            $('#main-menu').slicknav();
-        });
-    </script>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="comment">Your Comment:</label>
+            <textarea id="comment" name="comment" required></textarea>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anime Paradise. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
