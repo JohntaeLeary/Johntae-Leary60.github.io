@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+     font-family: 'Sawarabi Mincho', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -102,7 +102,7 @@ footer {
     margin-top: 2rem;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .character-gallery {
         flex-direction: column;
