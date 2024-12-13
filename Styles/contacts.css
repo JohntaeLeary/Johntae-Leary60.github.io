@@ -24,7 +24,7 @@ form input, form textarea {
 
 form button {
     background-color: #34495e;
-    color: white;
+    color: red;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
